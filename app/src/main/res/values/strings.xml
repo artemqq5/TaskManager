@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Task Manager - act responsibly</string>
+    <string name="plan_text">Schedule a task and receive a message at a specified time</string>
+    <string name="your_message">Your message</string>
+    <string name="schedule">Schedule</string>
+    <string name="choice_time">after how much?</string>
+    <string name="notification_text">You will receive a notification in %1$d hours %2$d minutes</string>
+</resources>

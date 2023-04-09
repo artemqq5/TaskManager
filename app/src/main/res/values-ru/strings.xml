@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plan_text">Спланируй задачу и получи сообщение на указанное время</string>
+    <string name="your_message">Ваше сообщение</string>
+    <string name="schedule">Запланировать</string>
+    <string name="choice_time">через сколько?</string>
+    <string name="notification_text">Вы получите уведомление через %1$d часов %2$d минут</string>
+</resources>
