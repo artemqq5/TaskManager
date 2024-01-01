@@ -8,6 +8,7 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.os.Build
+import android.util.Log
 import androidx.core.app.NotificationCompat
 import kotlin.random.Random
 
@@ -34,7 +35,9 @@ class MyAlarmReceiver : BroadcastReceiver() {
                 .setSmallIcon(R.drawable.notification_icon)
                 .setContentText(text)
 
-            notificationManager.notify(Random.nextInt(0, 100000), builder.build())
+            Log.i("adfadf", "send >=")
+
+            notificationManager.notify(1001, builder.build())
         } else {
             val builder = NotificationCompat.Builder(context, channelId)
                 .setSmallIcon(R.drawable.notification_icon)
@@ -43,7 +46,9 @@ class MyAlarmReceiver : BroadcastReceiver() {
                 .setLights(Color.GREEN, 1000, 1000)
                 .setVibrate(longArrayOf(0, 100, 200, 300))
 
-            notificationManager.notify(Random.nextInt(0, 100000), builder.build())
+            Log.i("adfadf", "send <")
+
+            notificationManager.notify(1001, builder.build())
 
         }
 
